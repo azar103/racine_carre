@@ -1,0 +1,39 @@
+.post {
+  width: 30%;
+  margin: 2px;
+}
+
+.post img {
+  width: 100%;
+  background-color: red;
+}
+
+.post .body .title h2,
+p {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.post .body {
+  background: white;
+  position: relative;
+  bottom: 28px;
+  padding: 10px;
+}
+
+.post .body button {
+  background-color: blue;
+  width: 200px;
+  padding: 8px;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+.post .body button::after {
+  content: ">>";
+  color: white;
+}
+.post .body button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}

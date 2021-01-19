@@ -1,0 +1,18 @@
+.home_wrapper .container {
+  height: 497px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.img_title {
+  width: 401px;
+  height: 148px;
+  background: #709f8d;
+  opacity: 0.9;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}

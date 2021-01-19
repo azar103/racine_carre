@@ -1,0 +1,19 @@
+.header_dashboard {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btn_create {
+  background: #9bc2c8;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.table_wrapper {
+  height: 800px;
+  margin-top: 20px;
+}
